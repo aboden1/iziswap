@@ -9,7 +9,7 @@ import os
 
 # Загрузка токена из .env
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7503668008:AAGCq0vXFm03eSV-ezYkNprQ7plC_pxq8Os")
 bot = telebot.TeleBot(TOKEN)
 
 # Общий лимит монет
